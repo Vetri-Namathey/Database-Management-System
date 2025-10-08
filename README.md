@@ -1,4 +1,4 @@
-# CricBid — Cricket Auction System
+# CricBid — IPL Auction System
 
 CricBid is a modern, full-stack web application for real-time cricket auctions, team management, and analytics. It features a FastAPI + SQLAlchemy backend and a Vite + React frontend. This project was built for a DBMS course and demonstrates advanced database and web development concepts.
 
@@ -91,3 +91,4 @@ See `backend_fastapi/.env.example` and `frontend/.env` for templates. **Never co
 - Authors: Venkatram KS, Sanggit Saaran K C S, Vishal Seshadri B, Surya HA
 - Guide: Dr. Archudha A
 #
+
