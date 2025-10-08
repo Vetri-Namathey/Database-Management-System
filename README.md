@@ -1,6 +1,6 @@
-# CricBid — IPL Auction Management System
+# IPL Auction Management System
 
-CricBid is a modern, full-stack web application for real-time cricket auctions, team management, and analytics. It features a FastAPI + SQLAlchemy backend and a Vite + React frontend. This project was built for a DBMS course and demonstrates advanced database and web development concepts.
+This repository contains an IPL Auction Management System — a full-stack web application for real-time cricket auctions, team management, and analytics. It uses a FastAPI + SQLAlchemy backend and a Vite + React frontend. This project was built for a DBMS course and demonstrates advanced database and web development concepts.
 
 ## Features
 - User & Admin registration/login (hashed passwords)
@@ -37,13 +37,12 @@ auct-proj/
 ## Quick Start
 
 ### Backend (FastAPI)
+Note: the instructions below do not require creating a virtual environment — run the backend directly with the repository Python runtime.
 ```powershell
 cd backend_fastapi
-python -m venv .venv
-. .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 # Copy .env.example to .env and fill in your DB credentials
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+python run.py
 ```
 
 ### Frontend (Vite + React)
@@ -91,5 +90,4 @@ See `backend_fastapi/.env.example` and `frontend/.env` for templates. **Never co
 - Authors: Venkatram KS, Sanggit Saaran K C S, Vishal Seshadri B, Surya HA
 - Guide: Dr. Archudha A
 #
-
 
